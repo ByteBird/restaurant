@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400&family=Varela+Round&display=swap');
+// font-family: 'Mitr', sans-serif;
+
+// font-family: 'Varela Round', sans-serif;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Varela Round', sans-serif;
+    background: #212121;
+    color: #eee;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+.header-container{
+    padding: 50px 0;
+    margin: 0 auto;
+    border-bottom: 1px solid #333;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.header img{
+    width: 3.3em;
+    height: 3.3em;
+    border-radius: 50%;
+}
+
+.head h1{
+    color: #fff;
+}
+.head p{
+    color: #777;
+    width: 18ch;
+}
+
+.main-container{
+    overflow: hidden;
+}
+.main{
+    
+    padding-top: 40px;
+}
+
+.sub-title{
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.sub-title-number{
+    font-size: 0.8em;
+    margin-left: 10px;
+    color: #fde397
+}
+
+.dashes{
+    width: 80%;
+    margin: 0 auto;
+}
+.new-dishes{
+    
+    margin-top: 40px;
+    margin-bottom: 15px;
+    display: flex;
+    width: 1000px;
+}
+.dishes-articles{
+    font-weight: bolder;
+    display: inline-block;
+    background: #333;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 12px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.dishes-articles i{
+    margin-left: 20px;
+    color: #999;
+}
+
+.plates-articles{
+    width: 95%;
+    background: #2d2d2d;
+    margin: 0 auto;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 27px;
+}
+
+.plates-articles a{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+.plates-articles a p, .plates-articles a h3{
+    color: #eee;
+}
+
+.plate-img{
+    width: 70%;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.description h3{
+    color: #fff;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.description .plates-price{
+    color: #fde397;
+}
+
+.description .plates-price span{
+    color: #666;
+    margin-left: 5px;
+}
+
+.description .time{
+    margin-top: 20px;
+    width: 100px;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 0.85em;
+    font-weight: bolder;
+    text-align: center;
+    color: #222;
+    background: #fde397;;
+}
